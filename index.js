@@ -142,7 +142,7 @@ const userController = {
 };
 app.get("/api/users", userController.getUser);
 app.get("/api/users/:id", userController.getIdUser);
-app.post("/api/users", userController.addUser);
+// app.post("/api/users", userController.addUser);
 app.delete("/api/users/:id", userController.deleteUserById);
 
 app.listen(1337, () => {
